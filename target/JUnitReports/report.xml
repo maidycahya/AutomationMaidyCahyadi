@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="89.365" tests="7" skipped="0" failures="0" errors="0">
+<testcase classname="feature to test login functionality" name="Check about information - Example #1.1" time="21.481">
+<system-out><![CDATA[
+Given browser is open product...............................................passed
+When user is on login page product..........................................passed
+When product user enters standard_user and secret_sauce.....................passed
+And clicks on login button product..........................................passed
+And clicks on hamburger menu................................................passed
+And click menu about........................................................passed
+Then user is navigated to the about information.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login and Cart Functionality" name="Check login in successfully with valid credentials - Example #1.1" time="15.84">
+<system-out><![CDATA[
+Given browser is open chart.................................................passed
+When user is on login page chart............................................passed
+When chart user enters standard_user and secret_sauce.......................passed
+Then clicks on login button chart...........................................passed
+And add to cart sauce labs backpack.........................................passed
+And shopping cart container.................................................passed
+Then user is navigated to the chart information.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login and Cart Functionality" name="Check Logout in successfully - Example #1.1" time="18.812">
+<system-out><![CDATA[
+Given browser is open logout................................................passed
+When user is on login page logout...........................................passed
+When logout user enters standard_user and secret_sauce......................passed
+Then clicks on login button logout..........................................passed
+And add to cart sauce labs backpack logout..................................passed
+And shopping cart container logout..........................................passed
+And clicks on hamburger menu logout.........................................passed
+And click on menu logout logout.............................................passed
+Then user is navigated to dashboard login...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test login functionality" name="Check login in successfully with valid credentials - Example #1.1" time="9.239">
+<system-out><![CDATA[
+Given browser is open.......................................................passed
+When user is on login page..................................................passed
+When user enters standard_user and secret_sauce.............................passed
+Then clicks on login button.................................................passed
+Then user is navigated to the home page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test login functionality" name="Check login in successfully with valid credentials - Example #1.2" time="9.076">
+<system-out><![CDATA[
+Given browser is open.......................................................passed
+When user is on login page..................................................passed
+When user enters problem_user and secret_sauce..............................passed
+Then clicks on login button.................................................passed
+Then user is navigated to the home page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test login functionality" name="Check login in failed with failed credentials - Example #1.1" time="7.285">
+<system-out><![CDATA[
+Given browser is open negative..............................................passed
+When user is on login page negative.........................................passed
+When negative user enters standard_user and secret23........................passed
+Then clicks on login button negative........................................passed
+Then user sees an error message negative....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test login functionality" name="Check login in failed with failed credentials - Example #1.2" time="6.979">
+<system-out><![CDATA[
+Given browser is open negative..............................................passed
+When user is on login page negative.........................................passed
+When negative user enters problem_user23 and secret_sauce...................passed
+Then clicks on login button negative........................................passed
+Then user sees an error message negative....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
